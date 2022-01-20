@@ -20,6 +20,7 @@ export const GifexpertApp = () => {
     return (
         <>
             <h2>API GIF GEEK</h2>
+            <h1>Developed by Giorgio Ruanova</h1>
             <AddCategory setCategories={setCategories} />
             <hr />
 

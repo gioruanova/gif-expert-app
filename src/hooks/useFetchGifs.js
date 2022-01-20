@@ -26,10 +26,6 @@ export const useFetchGifs = (category) => {
 
 
 
-    // useEffect(() => {
-    //     getGifs(category)
-    //         .then(setImages);
-    // }, [category])
 
 
 
