@@ -11,15 +11,14 @@ h2 {
   margin: 1rem;
 }
 h1 {
-  
   margin: 1rem;
 }
 
-h3{
+h3 {
   text-transform: uppercase;
 }
 
-p{
+p {
   text-transform: capitalize;
 }
 
