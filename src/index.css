@@ -4,11 +4,13 @@
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1rem;
   text-align: center;
+  align-items: center;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 1rem;
+  color:orange;
 }
 h1 {
   margin: 1rem;
@@ -23,7 +25,7 @@ p {
 }
 
 body {
-  padding: 60px;
+  padding: 1rem;
 }
 
 button {
@@ -31,7 +33,7 @@ button {
   margin: 1rem;
   text-transform: uppercase;
   font-weight: bold;
-  width: 20%;
+  width: auto;
   height: 2rem;
 }
 
@@ -46,6 +48,7 @@ input {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding-left: 0!important;
 }
 .card {
   align-content: center;
@@ -62,5 +65,16 @@ input {
 }
 
 .card img {
-  max-height: 170px;
+  width: 20rem;
+}
+
+ol{
+  padding-left: 0!important;
+}
+
+.footer-dev {
+  color: #f55a10;
+  padding-top: 1rem;
+  text-transform: capitalize;
+  font-style: italic;
 }

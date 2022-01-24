@@ -20,7 +20,7 @@ export const GifexpertApp = () => {
     return (
         <>
             <h2>API GIF GEEK</h2>
-            <h1>Developed by Giorgio Ruanova</h1>
+            <h1 className="footer-dev">Developed by Giorgio Ruanova</h1>
             <AddCategory setCategories={setCategories} />
             <hr />
 
@@ -33,7 +33,7 @@ export const GifexpertApp = () => {
                     ))
                 }
             </ol>
-
+            <footer className="footer-dev">Developed by Giorgio Ruanova</footer>
         </>
     )
 }
